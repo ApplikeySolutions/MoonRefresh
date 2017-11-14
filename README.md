@@ -3,7 +3,7 @@
 
 Made by [Applikey Solutions](https://applikeysolutions.com)
 
-![Alt text](screenshots/Moon-Refresher.png?raw=true)
+![Alt text](screenshots/Moon-Refresh.png?raw=true)
 
 # Table of Contents
 1. [Purpose](#purpose)
