@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/AppliKeySolutions/Orion/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/AppliKey/MoonRefresh/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/contact-@Applikey_-blue.svg?style=flat)](https://twitter.com/Applikey_)
 
 Made by [Applikey Solutions](https://applikeysolutions.com)
@@ -15,6 +15,47 @@ Made by [Applikey Solutions](https://applikeysolutions.com)
 7. [License](#license)
 
 
+# Purpose
+
+MoonRefresh is a simple pull to refresh animation for Android completely written in Kotlin
+
+# Installation
+
+```groovy
+compile 'com.github.applikeysolutions:moonrefresh:1.0.0'
+```
+
+# Usage
+
+```kotlin
+ moonRefresh = findViewById(R.id.pull_to_refresh)
+        moonRefresh.setOnRefreshListener(
+                object : MoonRefresh.OnRefreshListener {
+                    override fun onRefresh() {
+                        moonRefresh.postDelayed({ moonRefresh.setRefreshing() }, 4_000)
+                    }
+                })
+```
+```xml
+<applikeysolutions.com.moonrefresh.MoonRefresh
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ballColor="@color/color..."
+        app:finishColor="@color/color..."
+        app:backgroundColor="@color/color...">
+        
+         <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </applikeysolutions.com.moonrefresh.MoonRefresh>
+```
+
+# Release Notes
+
+Version 1.0.0
+
+- Release version.
 
 # Contact Us
 
