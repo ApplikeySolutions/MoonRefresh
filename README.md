@@ -3,7 +3,7 @@
 
 Made by [Applikey Solutions](https://applikeysolutions.com)
 
-![Alt text](screenshots/pull_to_refresh.gif?raw=true)
+![Alt text](screenshots/Moon-Refresh.png?raw=true)
 
 # Table of Contents
 1. [Purpose](#purpose)
@@ -50,6 +50,9 @@ compile 'com.github.applikeysolutions:moonrefresh:1.0.0'
 
     </applikeysolutions.com.moonrefresh.MoonRefresh>
 ```
+# Demo
+
+![Alt text](screenshots/pull_to_refresh.gif?raw=true)
 
 # Release Notes
 
